@@ -1,0 +1,2 @@
+aws cloudformation create-stack --stack-name chroma-ttb2 --template-url https://s3.amazonaws.com/public.trychroma.com/cloudformation/latest/chroma.cf.json
+aws cloudformation describe-stacks --stack-name chroma-ttb2 --query 'Stacks[0].Outputs'

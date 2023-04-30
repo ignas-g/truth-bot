@@ -5,7 +5,13 @@
   "bugs": {
     "url": "https://github.com/bennycode/ts-node-starter/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@pinecone-database/pinecone": "0.0.14",
+    "chromadb": "1.4.1",
+    "langchain": "0.0.66",
+    "node-fetch": "2.6.6",
+    "wtf_wikipedia": "10.1.4"
+  },
   "description": "",
   "devDependencies": {
     "@evilmartians/lefthook": "1.3.8",
@@ -13,6 +19,7 @@
     "@tstv/tsconfig-common": "2.0.0",
     "@types/jest": "29.5.0",
     "@types/node": "18.15.11",
+    "@types/node-fetch": "2.6.3",
     "cross-env": "7.0.3",
     "eslint": "8.37.0",
     "generate-changelog": "1.8.0",
@@ -47,6 +54,7 @@
     "changelog:commit": "git add CHANGELOG.md && git commit -m \"docs: updated CHANGELOG.md\"",
     "clean": "rimraf .nyc_output coverage dist",
     "debug": "node --inspect -r ts-node/register ./src/start.ts",
+    "download": "node --inspect -r ts-node/register ./src/downloader.ts",
     "dist": "yarn clean && yarn build",
     "fix": "yarn fix:config && yarn fix:code",
     "fix:code": "yarn lint:code --fix --quiet",
