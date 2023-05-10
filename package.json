@@ -7,9 +7,14 @@
   },
   "dependencies": {
     "@pinecone-database/pinecone": "0.0.14",
+    "@types/lodash": "4.14.194",
+    "axios": "1.4.0",
     "chromadb": "1.4.1",
+    "csv-parser": "3.0.0",
+    "dotenv": "16.0.3",
     "langchain": "0.0.66",
-    "node-fetch": "3.3.1",
+    "lodash": "4.17.21",
+    "node-fetch": "2.6.3",
     "wtf_wikipedia": "10.1.4"
   },
   "description": "",

@@ -15,3 +15,7 @@ npm-debug.log*
 package-lock.json
 yarn-error.log
 data
+.env
+all_categories.txt
+processed_categories.txt
+found_categories.txt
