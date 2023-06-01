@@ -1559,12 +1559,10 @@ char-regex@^1.0.2:
   resolved "https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
-chromadb@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/chromadb/-/chromadb-1.4.1.tgz"
-  integrity sha512-vRcig4CJxJXs++cKMt9tHmk9YjQprxzLK9sVYD6iXfqRJBoXeoFzk/RS95Dz1J6/7aSfBwDsyx3AE2ePP9FnYA==
-  dependencies:
-    axios "^0.26.0"
+chromadb@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.npmjs.org/chromadb/-/chromadb-1.5.1.tgz#4be26c21eefbf5201f697b6108df147bbee36ba6"
+  integrity sha512-znTUGJQ2mLLgPe2C1GVJt27EBCfS0TUmWj9WrO4OvwosU5y5ULZN+6vMBZ8tJjAxUe1Se/wiykUIOPc2H0EzQA==
 
 ci-info@^3.2.0:
   version "3.2.0"
