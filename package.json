@@ -15,7 +15,7 @@
     "langchain": "0.0.66",
     "lodash": "4.17.21",
     "node-fetch": "2.6.3",
-    "wtf_wikipedia": "10.1.4"
+    "wtf_wikipedia": "10.1.5"
   },
   "description": "",
   "devDependencies": {
