@@ -6,7 +6,7 @@
     "url": "https://github.com/bennycode/ts-node-starter/issues"
   },
   "dependencies": {
-    "@pinecone-database/pinecone": "0.0.14",
+    "@pinecone-database/pinecone": "0.1.6",
     "@types/lodash": "4.14.195",
     "axios": "1.4.0",
     "chromadb": "1.5.1",
