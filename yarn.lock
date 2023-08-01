@@ -583,10 +583,10 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.44.0.tgz#961a5903c74139390478bdc808bcde3fc45ab7af"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
-"@evilmartians/lefthook@1.4.3":
-  version "1.4.3"
-  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.4.3.tgz#4eecebf8b5a33e0a876aa0e5b12feaf27ffa9e77"
-  integrity sha512-m9MMFdDqFpsctUev3pk4sGzjKXpYFZH9MTVSGrnAjo8HsP0XZ/L/UgPXY75BNUtqU+hvXCmBF8mxSLU93kjhvA==
+"@evilmartians/lefthook@1.4.8":
+  version "1.4.8"
+  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.4.8.tgz#d83a0f47a23ebbb21124e95ecac3836ae2d3a7de"
+  integrity sha512-skUfQjv+1ySL+reMdBb6aqnY+i6Dj4idp5zb6vnLye9RirqoE2ocAqOnW4qQ5I7NTzUT39xuirY9+OSS2Gh+sA==
 
 "@fortaine/fetch-event-source@^3.0.6":
   version "3.0.6"
