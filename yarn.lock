@@ -3590,10 +3590,10 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-langchain@0.0.120:
-  version "0.0.120"
-  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.120.tgz#8c6666fe7033484c4ae6eb3f2ad2e24da5abc7b6"
-  integrity sha512-QDtoluHiyZnOWsweb3b7rW9ULj2HzGJqgWhxaGviwnA3SrE1om9BMKCY5eI0NMIL/dd5MutenGGlD+VGL0MVWA==
+langchain@0.0.138:
+  version "0.0.138"
+  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.138.tgz#a30edd0081a81763408a1e7cbc84a7c58790d264"
+  integrity sha512-1TlrsK7yeGJitZn3r+gyCewveuaDK+g36u5ARuwdxHWYsW432w0Emy+lgW2SWkAjwvyZEvyaBuyvmjJKuSD8VQ==
   dependencies:
     "@anthropic-ai/sdk" "^0.5.7"
     ansi-styles "^5.0.0"
@@ -3605,7 +3605,7 @@ langchain@0.0.120:
     js-tiktoken "^1.0.7"
     js-yaml "^4.1.0"
     jsonpointer "^5.0.1"
-    langsmith "~0.0.11"
+    langsmith "~0.0.26"
     ml-distance "^4.0.0"
     object-hash "^3.0.0"
     openai "^3.3.0"
@@ -3617,10 +3617,10 @@ langchain@0.0.120:
     zod "^3.21.4"
     zod-to-json-schema "^3.20.4"
 
-langsmith@~0.0.11:
-  version "0.0.15"
-  resolved "https://registry.npmjs.org/langsmith/-/langsmith-0.0.15.tgz#22affd83cfe3e06cda1929ea29397fdbbce75829"
-  integrity sha512-SVLJEm94aK9mmqE3z2wlpzLjPNodnPJHp1MZdmXG2ysUWSFsRVuGkd6A/GTzlEZ6OofyJSOg6tcNFJSFOi13QQ==
+langsmith@~0.0.26:
+  version "0.0.31"
+  resolved "https://registry.npmjs.org/langsmith/-/langsmith-0.0.31.tgz#e6554996ef5844c065aa778980eaff1bf406e7a5"
+  integrity sha512-uolSUO9jYeE6NhU1ug7q7bGXeOvnTJt3jwI9EBNlNUwZBArH8zWnyVC2bfyXKSGZy/bjR8puy9aJVpebCNX/tg==
   dependencies:
     "@types/uuid" "^9.0.1"
     commander "^10.0.1"
