@@ -12,7 +12,7 @@
     "chromadb": "1.5.11",
     "csv-parser": "3.0.0",
     "dotenv": "16.3.1",
-    "langchain": "0.0.138",
+    "langchain": "0.0.156",
     "lodash": "4.17.21",
     "node-fetch": "3.3.2",
     "wtf_wikipedia": "10.1.7"
