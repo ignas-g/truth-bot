@@ -1008,10 +1008,10 @@
     eslint-plugin-prettier "5.0.0"
     eslint-plugin-sort-keys-fix "1.1.2"
 
-"@tstv/tsconfig-common@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-3.2.1.tgz#591de5107f9624feeadcd23a06ff15a22a017728"
-  integrity sha512-5Ol2VxjRdAhjJm9YnGpIRKsr+4aAhL4wrsAMx8asblTzMd6sZTxREFPmwWOhDxOEbFixXqaGZk67SKnNCLKiFA==
+"@tstv/tsconfig-common@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.npmjs.org/@tstv/tsconfig-common/-/tsconfig-common-3.3.1.tgz#ab73b11a141d1ad289ff9f876969ea74ce147c09"
+  integrity sha512-OTf+DY0qd7AEBnm2Es1ytMxlIFzZejYJCsDk14JV1uEb2uCowaO1rZjOMaN/ak1RZY3bMz+9zmskPSDoUlL6yw==
 
 "@types/babel__core@^7.1.14":
   version "7.1.16"
