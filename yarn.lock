@@ -15,10 +15,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@anthropic-ai/sdk@^0.5.7":
-  version "0.5.9"
-  resolved "https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.5.9.tgz#8a78f3a0558b2aee6572bab1f38f0c996999b985"
-  integrity sha512-9/TYca4qSe0xG40LLNf5vemybw5JAKF5OE6Eiyc+O+h3+VGGPeOKo+1SHaWBP5zS7bGX2o3Ne6EonPWyh9oNqA==
+"@anthropic-ai/sdk@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.6.2.tgz#4be415e6b1d948df6f8e03af84aedf102ec74b70"
+  integrity sha512-fB9PUj9RFT+XjkL+E9Ol864ZIJi+1P8WnbHspN3N3/GK2uSzjd0cbVIKTGgf4v3N8MwaQu+UWnU7C4BG/fap/g==
   dependencies:
     "@types/node" "^18.11.18"
     "@types/node-fetch" "^2.6.4"
@@ -1463,13 +1463,6 @@ axios@1.5.1:
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
-axios@^0.26.0:
-  version "0.26.1"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
-  integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
-  dependencies:
-    follow-redirects "^1.14.8"
-
 babel-jest@^29.7.0:
   version "29.7.0"
   resolved "https://registry.npmjs.org/babel-jest/-/babel-jest-29.7.0.tgz#f4369919225b684c56085998ac63dbd05be020d5"
@@ -2508,7 +2501,7 @@ flatted@^3.1.0:
   resolved "https://registry.npmjs.org/flatted/-/flatted-3.1.1.tgz"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
-follow-redirects@^1.14.8, follow-redirects@^1.15.0:
+follow-redirects@^1.15.0:
   version "1.15.2"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
   integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
@@ -3604,12 +3597,12 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-langchain@0.0.138:
-  version "0.0.138"
-  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.138.tgz#a30edd0081a81763408a1e7cbc84a7c58790d264"
-  integrity sha512-1TlrsK7yeGJitZn3r+gyCewveuaDK+g36u5ARuwdxHWYsW432w0Emy+lgW2SWkAjwvyZEvyaBuyvmjJKuSD8VQ==
+langchain@0.0.156:
+  version "0.0.156"
+  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.156.tgz#476ceb7920d72b18267c429e0a52c264c99c8d79"
+  integrity sha512-mEaRqQdBPTMjI+FE0nmgynX8lY78SMvW+G0ChxqPARuoIXbz1QORvIz/BfpSbzjKkx/b5rEGocLcw1dAsr52YQ==
   dependencies:
-    "@anthropic-ai/sdk" "^0.5.7"
+    "@anthropic-ai/sdk" "^0.6.2"
     ansi-styles "^5.0.0"
     binary-extensions "^2.2.0"
     camelcase "6"
@@ -3619,10 +3612,11 @@ langchain@0.0.138:
     js-tiktoken "^1.0.7"
     js-yaml "^4.1.0"
     jsonpointer "^5.0.1"
-    langsmith "~0.0.26"
+    langchainhub "~0.0.6"
+    langsmith "~0.0.31"
     ml-distance "^4.0.0"
     object-hash "^3.0.0"
-    openai "^3.3.0"
+    openai "~4.4.0"
     openapi-types "^12.1.3"
     p-queue "^6.6.2"
     p-retry "4"
@@ -3631,10 +3625,15 @@ langchain@0.0.138:
     zod "^3.21.4"
     zod-to-json-schema "^3.20.4"
 
-langsmith@~0.0.26:
-  version "0.0.31"
-  resolved "https://registry.npmjs.org/langsmith/-/langsmith-0.0.31.tgz#e6554996ef5844c065aa778980eaff1bf406e7a5"
-  integrity sha512-uolSUO9jYeE6NhU1ug7q7bGXeOvnTJt3jwI9EBNlNUwZBArH8zWnyVC2bfyXKSGZy/bjR8puy9aJVpebCNX/tg==
+langchainhub@~0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/langchainhub/-/langchainhub-0.0.6.tgz#9d2d06e4ce0807b4e8a31e19611f57aef990b54d"
+  integrity sha512-SW6105T+YP1cTe0yMf//7kyshCgvCTyFBMTgH2H3s9rTAR4e+78DA/BBrUL/Mt4Q5eMWui7iGuAYb3pgGsdQ9w==
+
+langsmith@~0.0.31:
+  version "0.0.41"
+  resolved "https://registry.npmjs.org/langsmith/-/langsmith-0.0.41.tgz#3cf5dc0b320748d8dfa65bcbec4a776d745b0003"
+  integrity sha512-QRJMrCg8IzQJmva+30SbbQznaX91R/5IIfNj0yy0EFhNzgEmJP+XYnTiS0Ph5Htv6Kb4mYhxP7x198ECupW98A==
   dependencies:
     "@types/uuid" "^9.0.1"
     commander "^10.0.1"
@@ -4070,13 +4069,19 @@ open@^9.1.0:
     is-inside-container "^1.0.0"
     is-wsl "^2.2.0"
 
-openai@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.npmjs.org/openai/-/openai-3.3.0.tgz#a6408016ad0945738e1febf43f2fccca83a3f532"
-  integrity sha512-uqxI/Au+aPRnsaQRe8CojU0eCR7I0mBiKjD3sNMzY6DaC1ZVrc85u98mtJW6voDug8fgGN+DIZmTDxTthxb7dQ==
+openai@~4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npmjs.org/openai/-/openai-4.4.0.tgz#dbaab326eb044ddec479951b245850c482678031"
+  integrity sha512-JN0t628Kh95T0IrXl0HdBqnlJg+4Vq0Bnh55tio+dfCnyzHvMLiWyCM9m726MAJD2YkDU4/8RQB6rNbEq9ct2w==
   dependencies:
-    axios "^0.26.0"
-    form-data "^4.0.0"
+    "@types/node" "^18.11.18"
+    "@types/node-fetch" "^2.6.4"
+    abort-controller "^3.0.0"
+    agentkeepalive "^4.2.1"
+    digest-fetch "^1.3.0"
+    form-data-encoder "1.7.2"
+    formdata-node "^4.3.2"
+    node-fetch "^2.6.7"
 
 openapi-types@^12.1.3:
   version "12.1.3"
