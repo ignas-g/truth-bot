@@ -3649,10 +3649,10 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-langchain@0.0.156:
-  version "0.0.156"
-  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.156.tgz#476ceb7920d72b18267c429e0a52c264c99c8d79"
-  integrity sha512-mEaRqQdBPTMjI+FE0nmgynX8lY78SMvW+G0ChxqPARuoIXbz1QORvIz/BfpSbzjKkx/b5rEGocLcw1dAsr52YQ==
+langchain@0.0.177:
+  version "0.0.177"
+  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.177.tgz#ea2bd97835df7a8d4ce24a7721899316b0dfd08b"
+  integrity sha512-V2BPPxxNp4l9RPXqdKxWE6MG7m2w+CT9LlOD9yMDIQssFTDXq9DB8oTSWbnJhCj+a4F891acA8RYlPlWmzBuwA==
   dependencies:
     "@anthropic-ai/sdk" "^0.6.2"
     ansi-styles "^5.0.0"
@@ -3674,7 +3674,7 @@ langchain@0.0.156:
     p-retry "4"
     uuid "^9.0.0"
     yaml "^2.2.1"
-    zod "^3.21.4"
+    zod "^3.22.3"
     zod-to-json-schema "^3.20.4"
 
 langchainhub@~0.0.6:
@@ -5232,7 +5232,7 @@ zod-to-json-schema@^3.20.4:
   resolved "https://registry.npmjs.org/zod-to-json-schema/-/zod-to-json-schema-3.20.5.tgz"
   integrity sha512-qYhIFYMHFpZvh7QnlXGCXMN8dGicM51m+AOs/SSSzmndbb5JKQkKmGnCGRJKiVo0bRIHHB3VA0c+eumIKi0Pqg==
 
-zod@^3.21.4:
-  version "3.21.4"
-  resolved "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz"
-  integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
+zod@^3.22.3:
+  version "3.22.4"
+  resolved "https://registry.npmjs.org/zod/-/zod-3.22.4.tgz#f31c3a9386f61b1f228af56faa9255e845cf3fff"
+  integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==
