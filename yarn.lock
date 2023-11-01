@@ -945,10 +945,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pinecone-database/pinecone@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-1.1.0.tgz#73666c4c6796262e98bec0e82e29f1effd8395a1"
-  integrity sha512-THg+D3cSYVCMmphroOEBQOU9UsOhABYcrExZyurcz8cZ3znipDyJuiX9F3CavysnQa5DTzQEZxcH1YmEMGW8mg==
+"@pinecone-database/pinecone@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-1.1.2.tgz#32848a1b988a906f053fe33157e6a2dcd75c396f"
+  integrity sha512-xrvaMWWloTjT70pSxvw+Es2f7qX5lzhtTZBfduagtwGQqK0nFMqS6Jq+1yqzobDaUhqfRfVwRZ95Gm10odqD3Q==
   dependencies:
     "@edge-runtime/types" "^2.2.3"
     "@sinclair/typebox" "^0.29.0"
