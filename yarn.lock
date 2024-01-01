@@ -1788,10 +1788,10 @@ charenc@0.0.2:
   resolved "https://registry.npmjs.org/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
   integrity sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==
 
-chromadb@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.npmjs.org/chromadb/-/chromadb-1.6.1.tgz#9fdda33f95cb4257040180cac7d91d5441c40fe7"
-  integrity sha512-jyIzbC8ucNG0EVOnt8fFjiiMmRw+OMJxHn/eWNuLkZ5jlNx/35GNdrYgRUo+Xg2aTFUT5H++9XzfHQrLhB8mEQ==
+chromadb@1.7.3:
+  version "1.7.3"
+  resolved "https://registry.npmjs.org/chromadb/-/chromadb-1.7.3.tgz#809019efd8c6126c5e4527875905f29c6c828fa6"
+  integrity sha512-3GgvQjpqgk5C89x5EuTDaXKbfrdqYDJ5UVyLQ3ZmwxnpetNc+HhRDGjkvXa5KSvpQ3lmKoyDoqnN4tZepfFkbw==
   dependencies:
     cliui "^8.0.1"
     isomorphic-fetch "^3.0.0"
