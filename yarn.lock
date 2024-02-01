@@ -558,18 +558,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@edge-runtime/primitives@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/@edge-runtime/primitives/-/primitives-4.0.1.tgz#12efffac1caa8a29ae8f86a3f87f20cc0ae07131"
-  integrity sha512-hxWUzx1SeyOed/Ea9Z6y6tyFKSj8gQWIdLilybTR2ene1IthLZE01A1SLGoch1szUdhFlUwpWDaYBYQw00lj2g==
-
-"@edge-runtime/types@^2.2.3":
-  version "2.2.3"
-  resolved "https://registry.npmjs.org/@edge-runtime/types/-/types-2.2.3.tgz#cb57b7215bcf406324ec591346b7b51c75a54bdf"
-  integrity sha512-zL0ENQWwdocECEQXVopGTfnqI0tJ8wzDOCoQymoc8MLRz+Zw2V1W0ex9vczniTUzB+H/P7ubMgx3GFzLp3NPBg==
-  dependencies:
-    "@edge-runtime/primitives" "4.0.1"
-
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
   resolved "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz"
@@ -985,18 +973,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pinecone-database/pinecone@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-1.1.2.tgz#32848a1b988a906f053fe33157e6a2dcd75c396f"
-  integrity sha512-xrvaMWWloTjT70pSxvw+Es2f7qX5lzhtTZBfduagtwGQqK0nFMqS6Jq+1yqzobDaUhqfRfVwRZ95Gm10odqD3Q==
+"@pinecone-database/pinecone@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-2.0.1.tgz#1dce6e06e299dfe2c26490aacffe1103e316b8fc"
+  integrity sha512-a1ejzrqdSQ2yW+9QUi2TVlKwYUbrvGH+QH6POJhITyaOz9ANE+EhXqToC9af93Ctzq9n87+bOUvBvewLeW++Mw==
   dependencies:
-    "@edge-runtime/types" "^2.2.3"
     "@sinclair/typebox" "^0.29.0"
-    "@types/node" "^18.11.17"
     ajv "^8.12.0"
     cross-fetch "^3.1.5"
     encoding "^0.1.13"
-    typescript "^4.9.4"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -1183,7 +1168,7 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@^18.11.17", "@types/node@^18.11.18":
+"@types/node@^18.11.18":
   version "18.18.1"
   resolved "https://registry.npmjs.org/@types/node/-/node-18.18.1.tgz#80b22f3df719f15c9736207980e95f35d01ec1aa"
   integrity sha512-3G42sxmm0fF2+Vtb9TJQpnjmP+uKlWvFa8KoEGquh4gqRmoUG/N0ufuhikw6HEsdG2G2oIKhog1GCTfz9v5NdQ==
@@ -5071,11 +5056,6 @@ typescript@5.3.3:
   version "5.3.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
   integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
-
-typescript@^4.9.4:
-  version "4.9.5"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
