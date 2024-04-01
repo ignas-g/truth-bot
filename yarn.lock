@@ -908,22 +908,23 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@langchain/community@~0.0.33":
-  version "0.0.34"
-  resolved "https://registry.npmjs.org/@langchain/community/-/community-0.0.34.tgz#5b7fbaf70bb2f1bb036b1ee4af38b8cc2103fbe3"
-  integrity sha512-eU3VyK7dZ3S05E4IQ3IVb3B8Ja/GaNDHaXhfjUJfZLOwyZrrLMhshGRIbbO+iMqJz8omGK761QK14v0G0/U3iw==
+"@langchain/community@~0.0.41":
+  version "0.0.43"
+  resolved "https://registry.npmjs.org/@langchain/community/-/community-0.0.43.tgz#017e2f9b3209b3999482f10df5aec2520731a63c"
+  integrity sha512-60TjV3knGGOPHfbJxLpuwARr8oA0r6Txm8wTFvFx+TjRUrloyBUcWSbJIdm62gAwBJDEHmdjjyWOOzU+eewcuA==
   dependencies:
-    "@langchain/core" "~0.1.36"
-    "@langchain/openai" "~0.0.14"
+    "@langchain/core" "~0.1.44"
+    "@langchain/openai" "~0.0.19"
+    expr-eval "^2.0.2"
     flat "^5.0.2"
     langsmith "~0.1.1"
     uuid "^9.0.0"
     zod "^3.22.3"
 
-"@langchain/core@~0.1.36", "@langchain/core@~0.1.39":
-  version "0.1.40"
-  resolved "https://registry.npmjs.org/@langchain/core/-/core-0.1.40.tgz#bf947560aaac3b614b56cc9aefc1a3e0b6700f56"
-  integrity sha512-TNX7swnPNFNXftsFMuXLkPhk+9/tE2veLFzuiiuIi0Mz/+jgPi4klHx9jxS8+DHPgMvKzmwsoE8U879iPByXjw==
+"@langchain/core@~0.1.44", "@langchain/core@~0.1.45":
+  version "0.1.52"
+  resolved "https://registry.npmjs.org/@langchain/core/-/core-0.1.52.tgz#7619310b83ffa841628efe2e1eda873ca714d068"
+  integrity sha512-AEyP99r7jijF33pyzaWtqCkiO9crotgethqq7jznAGlIojMCL9BT/id2DjVyN32SGFTpet273kkjsmEdFSHqpA==
   dependencies:
     ansi-styles "^5.0.0"
     camelcase "6"
@@ -937,12 +938,12 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
-"@langchain/openai@~0.0.14":
-  version "0.0.15"
-  resolved "https://registry.npmjs.org/@langchain/openai/-/openai-0.0.15.tgz#541271bb36066422957ac7f822ca2a45281630b1"
-  integrity sha512-ILecml9YopmQxfpaquYEG+KfEz7svJqpcla671J1tVngqtPwRqg9PLUOa2eDrPsunScxKUeLd8HjAGLd/eaefQ==
+"@langchain/openai@~0.0.19":
+  version "0.0.25"
+  resolved "https://registry.npmjs.org/@langchain/openai/-/openai-0.0.25.tgz#8332abea1e3acb9b1169f90636e518c0ee90622e"
+  integrity sha512-cD9xPDDXK2Cjs6yYg27BpdzBnQZvBb1yaNgMoGLWIT27UQVRyT96PLC1OVMQOmMmHaKDBCj/1bW4GQQgX7+d2Q==
   dependencies:
-    "@langchain/core" "~0.1.39"
+    "@langchain/core" "~0.1.45"
     js-tiktoken "^1.0.7"
     openai "^4.26.0"
     zod "^3.22.4"
@@ -3638,17 +3639,16 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-langchain@0.1.24:
-  version "0.1.24"
-  resolved "https://registry.npmjs.org/langchain/-/langchain-0.1.24.tgz#040a528b284e23574744ce9e87b10dc77c131d99"
-  integrity sha512-awVjr8ZepD2YWxDB5YDjrmFjgPiBfKCO0gzcyU1YruQXjNZ5i84wUZ1bAiwyzR2BgxdWpRh81A5I7ofSNTgXUw==
+langchain@0.1.30:
+  version "0.1.30"
+  resolved "https://registry.npmjs.org/langchain/-/langchain-0.1.30.tgz#e1adb3f1849fcd5c596c668300afd5dc8cb37a97"
+  integrity sha512-5h/vNMmutQ98tbB0sPDlAileZVca6A2McFgGa3+D56Dm8mSSCzTQL2DngPA6h09DlKDpSr7+6PdFw5Hoj0ZDSw==
   dependencies:
     "@anthropic-ai/sdk" "^0.9.1"
-    "@langchain/community" "~0.0.33"
-    "@langchain/core" "~0.1.36"
-    "@langchain/openai" "~0.0.14"
+    "@langchain/community" "~0.0.41"
+    "@langchain/core" "~0.1.44"
+    "@langchain/openai" "~0.0.19"
     binary-extensions "^2.2.0"
-    expr-eval "^2.0.2"
     js-tiktoken "^1.0.7"
     js-yaml "^4.1.0"
     jsonpointer "^5.0.1"
