@@ -1,104 +1,42 @@
-# ts-node-starter
+Truth-Bot
+=========
 
-The `ts-node-starter` scaffolding project is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) which makes it easy for you to start a new Node.js project with TypeScript.
+Overview
+--------
 
-Using this template, you can build **standalone apps**, **libraries** and/or **CLI tools**. The `ts-node-starter` setup is configurable and comes with a lot of features included.
+Truth-Bot is an innovative application created, designed to verify information accuracy by utilizing the Wikipedia database. It's a powerful tool for checking the truthfulness of various statements, facts, and data, by sourcing directly from Wikipedia. Developed with TypeScript, Truth-Bot is a robust and reliable solution for fact verification.
 
-## Features
+Project Structure
+-----------------
 
-1. **Automatic changelog generation** powered by [generate-changelog](https://github.com/lob/generate-changelog)
-1. **Automatic code & config formatting** powered by [Lefthook](https://github.com/evilmartians/lefthook)
-1. **Automatic dependency updates** powered by [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates)
-1. **Code coverage reports** powered by [Codecov](https://about.codecov.io/)
-1. **Config formatting** powered by [Prettier](https://prettier.io/)
-1. **Continuous integration pipeline** powered by [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows)
-1. **Cross-platform compatibility** powered by [cross-env](https://github.com/kentcdodds/cross-env)
-1. **Dependency management** powered by [yarn](https://yarnpkg.com/)
-1. **Distribution pipeline** powered by [npm](https://www.npmjs.com/)
-1. **Static code analysis** powered by [ESLint](https://eslint.org/)
-1. **Testing & code coverage** powered by [Jest](https://jestjs.io/)
-1. **Type checking** powered by [TypeScript](https://www.typescriptlang.org/)
+The project's `src` directory contains several TypeScript files each serving a unique role:
 
-## Usage
+-   `MyClass.ts` & `MyClass.test.ts`: Implements and tests core functionalities of Truth-Bot.
+-   `cli.ts` & `cli.test.ts`: Command-Line Interface for interacting with Truth-Bot. These files include code and tests for CLI commands.
+-   `downloader.ts`: Handles downloading data from external sources, primarily Wikipedia.
+-   `fetch-categories.ts`: Responsible for fetching and filtering Wikipedia categories relevant to the information being verified.
+-   `index.ts`: The entry point of the application, orchestrating various modules.
+-   `load.ts`: Deals with loading and initializing necessary components or data for Truth-Bot.
+-   `parse.ts`: Parses downloaded data for further processing.
+-   `preprocess.ts`: Pre-processes data to make it suitable for analysis.
+-   `process-categories.ts`: Further processes the fetched categories to ensure relevance and accuracy.
+-   `query-chroma.ts`: A specialized script for handling complex queries.
+-   `query.ts`: Manages the execution of queries against the Wikipedia database.
+-   `start.ts`: Used to start the application, ensuring all components are correctly initialized.
+-   `wikipedia-loader.ts`: Specifically focused on loading data from Wikipedia.
 
-### Make it your own
+Usage
+-----
 
-1. Replace all occurrences of "bennycode" with your own username (or organization name)
-2. Replace all occurrences of "ts-node-starter" with your project name (or repository name)
-3. Start writing your code in the ["src" directory](./src)
-4. Run `yarn` and be happy! 😊
+To use Truth-Bot, follow these steps:
 
-### Build a standalone app
+1.  Clone the repository to your local machine.
+2.  Install the necessary dependencies via npm or yarn.
+3.  Use the CLI to input statements or facts you want to verify.
 
-**Source Code**
+Contributing
+------------
 
-If you just want to write and run a Node.js app, checkout ["src/start.ts"](./src/start.ts).
+Contributions to Truth-Bot are welcome. Whether it's bug fixes, feature enhancements, or documentation improvements, feel free to fork the repository and submit a pull request.
 
-**References**
-
-You can start your application by executing `yarn start`. If you want to debug your code, run `yarn debug` ([Debug Instructions](https://dev.to/typescripttv/debug-your-node-js-app-with-chrome-devtools-4c98)).
-
-### Build a Library
-
-**Source Code**
-
-If you want to distribute your code as a Node.js library on [npm](https://www.npmjs.com/), you can have a look at ["src/index.ts"](./src/index.ts). If you build a library, I recommend to always ship an index file from where you export the code of your library for others.
-
-**References**
-
-In the ["package.json" file](./package.json) you will also discover a "main" property which defines the entry point to your library when it gets imported by other developers. The value of the "main" property has to point to the transpiled JavaScript code.
-
-### Build a CLI
-
-**Source Code**
-
-If you want to build a CLI tool for Node.js, you can have a look at ["src/cli.ts"](./src/cli.ts).
-
-**References**
-
-In the ["package.json" file](./package.json) you will also discover a "bin" property which defines the executable name of your tool and the entry point to its transpiled JavaScript code.
-
-If you don't want to publish a CLI, simply remove the "bin" property and the CLI script.
-
-## Conventions
-
-### Test Files
-
-I recommend to colocate your test code with your source code by naming your test files `*.test.ts`.
-
-### Changelog Generation
-
-The automatic changelog generation is based on [Semantic Commit Messages](https://sparkbox.com/foundry/semantic_commit_messages). Simply use the suggested prefixes in your commit messages to make use of it. For example, if you commit a new feature use the "feat" prefix:
-
-**Commit Message**
-
-> feat: My new feature
-
-## Troubleshooting
-
-If you're having trouble with the Git pre-commit hook, then reinstall the hook using the following command:
-
-```bash
-npx lefthook install -a
-```
-
-Source: [Hooks don't run](https://github.com/evilmartians/lefthook/wiki/Troubleshooting)
-
-## Important Refactorings
-
-1. Replaced [EditorConfig](https://editorconfig.org/) with [Prettier](https://prettier.io/) (https://github.com/bennycode/ts-node-starter/commit/2e24f7be5f427c26d6cc8281438a6398a211b75c)
-1. Replaced [Jasmine](https://jasmine.github.io/) with [Jest](https://jestjs.io/) (https://github.com/bennycode/ts-node-starter/commit/41e9b42bb5b7ca364dbbabf1104955090003d1be)
-1. Replaced [action-dependabot-auto-merge](https://github.com/ahmadnassri/action-dependabot-auto-merge) with [Dependabot](https://github.com/dependabot) & [GitHub CLI](https://cli.github.com/) (https://github.com/bennycode/ts-node-starter/commit/86d5696113c2fb4907a1666e25d1b72d698b06a5)
-1. Replaced [husky](https://github.com/typicode/husky) with [Lefthook](https://github.com/evilmartians/lefthook) (https://github.com/bennycode/ts-node-starter/commit/9c4161509acf49e56042383c9ea340f68f248582)
-1. Replaced custom [ESLint](https://eslint.org/) Config with a [Shareable Config](https://eslint.org/docs/latest/developer-guide/shareable-configs) (https://github.com/bennycode/ts-node-starter/commit/eef59275e91f6f484f7a917fdd87b09318ebbad3)
-
-## Contributors
-
-[![Benny Neugebauer on Stack Exchange][stack_exchange_bennycode_badge]][stack_exchange_bennycode_url]
-
-[![Panayiotis Lipiridis on Stack Exchange][stack_exchange_lipis_badge]][stack_exchange_lipis_url]
-
-[stack_exchange_bennycode_badge]: https://stackexchange.com/users/flair/203782.png?theme=default
-[stack_exchange_bennycode_url]: https://stackexchange.com/users/203782/benny-neugebauer?tab=accounts
-[stack_exchange_lipis_badge]: https://stackexchange.com/users/flair/5282.png?theme=default
-[stack_exchange_lipis_url]: https://stackexchange.com/users/5282/lipis?tab=accounts
+Please follow the standard code review practices and ensure all tests pass before proposing changes.
