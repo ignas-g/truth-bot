@@ -1606,10 +1606,10 @@ char-regex@^1.0.2:
   resolved "https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
-chromadb@1.8.1:
-  version "1.8.1"
-  resolved "https://registry.npmjs.org/chromadb/-/chromadb-1.8.1.tgz#d2563a67c650187b5d79f171c46b2a1abbb4f056"
-  integrity sha512-NpbYydbg4Uqt/9BXKgkZXn0fqpsh2Z1yjhkhKH+rcHMoq0pwI18BFSU2QU7Fk/ZypwGefW2AvqyE/3ZJIgy4QA==
+chromadb@1.9.2:
+  version "1.9.2"
+  resolved "https://registry.npmjs.org/chromadb/-/chromadb-1.9.2.tgz#5461319000654d2c4611f7aa11357a4024ba3815"
+  integrity sha512-JNeLKlrsPxld7oPJCNeF73yHyyYeyP950enWRkTa6WsJ6UohH2NQ1vXZu6lWO9WuA9EMypITyZFZ8KtcTV3y2Q==
   dependencies:
     cliui "^8.0.1"
     isomorphic-fetch "^3.0.0"
