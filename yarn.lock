@@ -978,10 +978,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pinecone-database/pinecone@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-3.0.2.tgz#5abb6b1670ef23b8cf831e5fe736653aa8da392d"
-  integrity sha512-OarESoYHlAEKh09pAzFs7QglCupd6Cv5QUIe9GHiFuVpyIFnBecklcRwWtLL1Qnd0cCFU7XvaWryFwrE4Pr4gA==
+"@pinecone-database/pinecone@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-3.0.3.tgz#0f2ede69fe92c24669da6f5469d6f39c33829b42"
+  integrity sha512-0cAG0d/6knVZgVyXM1II4qG3dyOepLuAQsCXTOJomdA7iQxf+/Om9mq9Cw4QObr56oZ+lqtptlw5qz0BQaBX2Q==
   dependencies:
     encoding "^0.1.13"
 
