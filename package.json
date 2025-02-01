@@ -21,7 +21,7 @@
   "devDependencies": {
     "@evilmartians/lefthook": "1.10.10",
     "@tstv/eslint-config": "3.2.3",
-    "@tstv/tsconfig-common": "3.6.0",
+    "@tstv/tsconfig-common": "3.7.0",
     "@types/jest": "29.5.14",
     "@types/node": "22.13.0",
     "@types/node-fetch": "2.6.12",
