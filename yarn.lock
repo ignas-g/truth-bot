@@ -4226,10 +4226,10 @@ write-file-atomic@^4.0.2:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
-wtf_wikipedia@10.3.2:
-  version "10.3.2"
-  resolved "https://registry.npmjs.org/wtf_wikipedia/-/wtf_wikipedia-10.3.2.tgz#339b502c772ca2355227b4600b84bbbe8e0ac70d"
-  integrity sha512-8C1eUKDK6NaosrtocTEA4fz5Lm5nO6Hb92zLUqI7S1uVVjwEtI0mvSGSdGd/xR1nfSpDYm1ckBG1aLHEAF1pBg==
+wtf_wikipedia@10.4.0:
+  version "10.4.0"
+  resolved "https://registry.npmjs.org/wtf_wikipedia/-/wtf_wikipedia-10.4.0.tgz#205428755346b1ec786d96837efec98d8f3a5e66"
+  integrity sha512-yRxTiBURj2LW5HWAe+T7bCV2x45C/qTqcknUTmInKmB9cmLSxR6Nh44rB9K+nfNiydtjc3HLHwYWxMuHZtpVSQ==
   dependencies:
     isomorphic-unfetch "^3.1.0"
     path-exists-cli "2.0.0"
