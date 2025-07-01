@@ -1558,10 +1558,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pinecone-database/pinecone@6.1.0":
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-6.1.0.tgz#1eefa09c767b6271934246f3304816501eee9f1a"
-  integrity sha512-g+hOT5pA/lt0ICZ949aQPkF5u4TDWZtfbwV+25ewcYSF9o2EBQLdrxMKSIfkESSM5FyizBct0Caq4CSYu5fbIw==
+"@pinecone-database/pinecone@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-6.1.1.tgz#4b79b7128ab14231d60f5b684618a6871ca46cb1"
+  integrity sha512-wstOV6gVdShi1PMrrmmgj2md5NwoVL3SS4brOiuxlGv2m0kiYBSxkvi6cx8S4dWkA/mfi1fzwmZ2YX64K+yaMA==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
