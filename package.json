@@ -24,7 +24,7 @@
     "@tstv/tsconfig-common": "3.7.1",
     "@types/jest": "29.5.14",
     "@types/node": "24.1.0",
-    "@types/node-fetch": "2.6.12",
+    "@types/node-fetch": "2.6.13",
     "cross-env": "7.0.3",
     "eslint": "9.32.0",
     "generate-changelog": "1.8.0",
