@@ -1652,43 +1652,43 @@ char-regex@^1.0.2:
   resolved "https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
-chromadb-js-bindings-darwin-arm64@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-arm64/-/chromadb-js-bindings-darwin-arm64-1.0.0.tgz#d6d85eb449dae3dd8269231dc71bcc6bbaabe6cc"
-  integrity sha512-uAioHwpNvIwbIU9br1nRW8W/YLhegqzBryxkwzBB7RPvi3wBFP37y404srFlTN0v/S2/2vgJq+7pNRwEfP4SlQ==
+chromadb-js-bindings-darwin-arm64@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-arm64/-/chromadb-js-bindings-darwin-arm64-1.0.1.tgz#b99150266b525df1377b0c58a864618645fc09d0"
+  integrity sha512-IyvK0/AauGzaBtDmq/rSPZFGbUGLXpR0y30GXinwfLRitIPHN1S0tuygiULKV8CLQDIa5rOtnucLhfX0ARZIpw==
 
-chromadb-js-bindings-darwin-x64@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-x64/-/chromadb-js-bindings-darwin-x64-1.0.0.tgz#7a8c7e84fec1cd1c273be82ff30e938bc96e2556"
-  integrity sha512-yewEtQXMzhYKrbydaHuHSV4Y/AkwSsOvdO8bF2J+OtBiGLqsEWLrMEes0M/SNOlolM/zpaAZ3OHP+qCT940Ihg==
+chromadb-js-bindings-darwin-x64@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-x64/-/chromadb-js-bindings-darwin-x64-1.0.1.tgz#bb386d1f6cbb11c46d856d48731812585a811093"
+  integrity sha512-COpf6ESv95D6dHxYF7o3YAkz9aGFazBVFvIEOmYdlMd+O+ClrtUN9sNtrFF7JPXDCwvc4xWiq3NvuhfNGodyqQ==
 
-chromadb-js-bindings-linux-arm64-gnu@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-arm64-gnu/-/chromadb-js-bindings-linux-arm64-gnu-1.0.0.tgz#24f058a63f8197cefa4c0ff3e522085805b50bf6"
-  integrity sha512-FvLY5k2VWwq5vv3aBW3OQ9XgbDyKqUIzacJLIjfFVm44ZGHmnHRkQxeo8CC0O2ye3Zc2jBW97lKDP+pLYPSEyg==
+chromadb-js-bindings-linux-arm64-gnu@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-arm64-gnu/-/chromadb-js-bindings-linux-arm64-gnu-1.0.1.tgz#4f84ecd61407622ea3c44748844c69247bb8b742"
+  integrity sha512-M6i5UMMrQWao70Ic3R/QI8IJpvoFfysaLwQ5LDvs77M3TITguImLUk8nRmC+8Vt9e97zIMg2llHMy87gzTUvJA==
 
-chromadb-js-bindings-linux-x64-gnu@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-x64-gnu/-/chromadb-js-bindings-linux-x64-gnu-1.0.0.tgz#a001630d4a11e98760562e051ea4b7c51fd9c0a8"
-  integrity sha512-IJQe62/6SenWoR3ZjT0GviN1OyGpce27E/WsbvsCfkvljOFNTfrJR9X83W0v10Jg2BNSHXDZmaNHwcuZyBsUxg==
+chromadb-js-bindings-linux-x64-gnu@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-x64-gnu/-/chromadb-js-bindings-linux-x64-gnu-1.0.1.tgz#338339f5d6e9e0762111fdf77be1dda888937cd3"
+  integrity sha512-Aw4WB+ojLgwcbopOLz2JnrmoCSRPUPmP9TBz1RUaZ3qTFINoyULkT1l6aD/O7leBZFYxRMLFQRfiCKp5uU+xYg==
 
-chromadb-js-bindings-win32-x64-msvc@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-win32-x64-msvc/-/chromadb-js-bindings-win32-x64-msvc-1.0.0.tgz#cf097796e968572065a9bdd176efba99fb2eec6e"
-  integrity sha512-pI0m4IaSDGV1mR6+KArVsw2lP/3kPmDZQIdWRurF0YYDjtOtTnMxB0GY0rUICZ6g3rC1/O/u40x7iemzrdLxVg==
+chromadb-js-bindings-win32-x64-msvc@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-win32-x64-msvc/-/chromadb-js-bindings-win32-x64-msvc-1.0.1.tgz#2cb49de48dd8d87e884e8228ac86391d950164a9"
+  integrity sha512-RNTJMrlUaiwUB6BODV7c5UqKW0EXzSH/vYBT/j7ZcSH2njzl18szDnirozCC4P4FNPKIbx5u1YzWCZZ9RlgjjQ==
 
-chromadb@3.0.5:
-  version "3.0.5"
-  resolved "https://registry.npmjs.org/chromadb/-/chromadb-3.0.5.tgz#2baa905f1efcca8125016692b343504e71aeb6a4"
-  integrity sha512-43cupzBnoyerWwVqf2Z7SiZOyk3cY+n0fBPhFbsgpzsKUOFIQmoXQcy4aX8qX3SOAl4hO6mONWWKRJLwKAq6eQ==
+chromadb@3.0.10:
+  version "3.0.10"
+  resolved "https://registry.npmjs.org/chromadb/-/chromadb-3.0.10.tgz#ddf48bd8a70605c9bfc5e508c46ae5ed2d3623f5"
+  integrity sha512-O2nKrSm7cgURf15SZzZj2RvlmwUB0XU+m0MfV34792b2ldN4LXNK+8QMtYWJ+wGmrsFh2jVURvFHPF513PgFcw==
   dependencies:
     semver "^7.7.1"
   optionalDependencies:
-    chromadb-js-bindings-darwin-arm64 "^1.0.0"
-    chromadb-js-bindings-darwin-x64 "^1.0.0"
-    chromadb-js-bindings-linux-arm64-gnu "^1.0.0"
-    chromadb-js-bindings-linux-x64-gnu "^1.0.0"
-    chromadb-js-bindings-win32-x64-msvc "^1.0.0"
+    chromadb-js-bindings-darwin-arm64 "^1.0.1"
+    chromadb-js-bindings-darwin-x64 "^1.0.1"
+    chromadb-js-bindings-linux-arm64-gnu "^1.0.1"
+    chromadb-js-bindings-linux-x64-gnu "^1.0.1"
+    chromadb-js-bindings-win32-x64-msvc "^1.0.1"
 
 ci-info@^3.2.0:
   version "3.2.0"
