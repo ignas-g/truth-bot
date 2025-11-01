@@ -23,7 +23,7 @@
     "@tstv/eslint-config": "4.0.0",
     "@tstv/tsconfig-common": "3.7.1",
     "@types/jest": "30.0.0",
-    "@types/node": "24.6.1",
+    "@types/node": "24.9.2",
     "@types/node-fetch": "2.6.13",
     "cross-env": "10.1.0",
     "eslint": "9.36.0",
