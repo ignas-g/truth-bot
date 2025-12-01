@@ -1826,43 +1826,43 @@ char-regex@^1.0.2:
   resolved "https://registry.npmjs.org/char-regex/-/char-regex-1.0.2.tgz"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
-chromadb-js-bindings-darwin-arm64@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-arm64/-/chromadb-js-bindings-darwin-arm64-1.0.9.tgz#7a2b0775a9b476e6d1d674831c97a42581ea051d"
-  integrity sha512-xZ7pOYVp1RCOJe80cQEWoBFdGi42wpTsBpevD9eyQMkp2FXXgK8u+0DG8bERs08Iac573XeB5TPoSYZgo5M2uA==
+chromadb-js-bindings-darwin-arm64@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-arm64/-/chromadb-js-bindings-darwin-arm64-1.1.1.tgz#4f202b390fb97e3c9cfd586d4cc3d863e7deeb59"
+  integrity sha512-/3s22U1OdxgpM8eBwCNPC5NO5s7hk4b4PLLp8y+FLfqU0CTqXfRi3uBPNAO2fQCmhOcMC6e7djT0Un4sFaYynA==
 
-chromadb-js-bindings-darwin-x64@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-x64/-/chromadb-js-bindings-darwin-x64-1.0.9.tgz#b3988911f1c384375ec98237a460180db4de8cee"
-  integrity sha512-c9VvY9hJqmYzUitBBrLBEArk1JZAbj1YWaPe7RrGpzYhya7z6HVC+klNSihkyQkZEZWBMOBfQJAwDdFsgrp1ZQ==
+chromadb-js-bindings-darwin-x64@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-darwin-x64/-/chromadb-js-bindings-darwin-x64-1.1.1.tgz#43f9372079d5c4bc1c384e6850f1dbe961de536c"
+  integrity sha512-2DYK5Ho1RjdPN4vXcdSO3u3/uU5L2RbpFuZ2/QvJYkGb2fLBecqA5YWUh9hOmu+HSWcKuFDi4fRuYj59irgQCg==
 
-chromadb-js-bindings-linux-arm64-gnu@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-arm64-gnu/-/chromadb-js-bindings-linux-arm64-gnu-1.0.9.tgz#d98db2b53aa429543681932f7490d018a1ea59a2"
-  integrity sha512-dScn0WQSDWBAmXxYgCI09bEsmwu8EgSSChAz7hLicVaddLb7oeAH2Zx/IzJJZbtdSQV2niPi1S6TEPKYv1pe2Q==
+chromadb-js-bindings-linux-arm64-gnu@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-arm64-gnu/-/chromadb-js-bindings-linux-arm64-gnu-1.1.1.tgz#f89464909d575e5a24ac7106653c30df3d2737aa"
+  integrity sha512-XkSEgJWbSN+grOpUy0LVoEHzhX3FiBDrxVHrWiEW4RqkMLfzUQMEfE/Qw78wSkfuIuIESxMYeh5PVjtBVv+8/g==
 
-chromadb-js-bindings-linux-x64-gnu@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-x64-gnu/-/chromadb-js-bindings-linux-x64-gnu-1.0.9.tgz#94260cf20eaafb666e43d855ccc696b96134c697"
-  integrity sha512-NMbwaUFx8HTB+pLLl+QNVUzZUpmaf2EcamChEtK+YnU83qEoiBKOsiaRHUkf8yEan5XXBnvK333zWh80aWOHYg==
+chromadb-js-bindings-linux-x64-gnu@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-linux-x64-gnu/-/chromadb-js-bindings-linux-x64-gnu-1.1.1.tgz#c35d913be53d458abd89c4bc74563db6c0466d06"
+  integrity sha512-RcvBcECbUcFXlFM2httdGc+3wmkI76tD9iGS0H9npEhz4LyLvdXKBK8CZtw67hsHCH09KklKw4ITkSS85pHVbA==
 
-chromadb-js-bindings-win32-x64-msvc@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/chromadb-js-bindings-win32-x64-msvc/-/chromadb-js-bindings-win32-x64-msvc-1.0.9.tgz#7194bcb515797f4b7e1138b7ea60af255b5badbe"
-  integrity sha512-CdNWGeXtY33Q2rzwJ5rUO65UHT3/qxY70IwAXftlW+BMI0s2vOvk6odgpUIU26hE6qhp+ajP5iPSDEtBFu40NQ==
+chromadb-js-bindings-win32-x64-msvc@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/chromadb-js-bindings-win32-x64-msvc/-/chromadb-js-bindings-win32-x64-msvc-1.1.1.tgz#6e1a99d964aa9ae1c6275dbf48342ce8bf68c3c2"
+  integrity sha512-296SxWNwsmvP+1Ggkl72norTFLOivoXhGu0t5mXNIbd7yd2UodntvAvG2cheTHDCL/ILbox4u+6KHNvRxHgm6A==
 
-chromadb@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/chromadb/-/chromadb-3.1.0.tgz#892b8ba57c967090d1306bde05dfec677f3004ad"
-  integrity sha512-j4ZztxGNVNXON84pBLdt7x4DgEjqgd23/GnO/MyzFb5BzFULRTpd8GEfTvyERuUYlYIygoyVs3f0BOxBSHguEA==
+chromadb@3.1.6:
+  version "3.1.6"
+  resolved "https://registry.npmjs.org/chromadb/-/chromadb-3.1.6.tgz#a3c71077b6556010fe904848813045a3b2038425"
+  integrity sha512-aY/9NqczQHrXOIjxVbjsOhdeW+kxQjzMP+VtK4OZh7pKeYYcdo3AbalHwl3FbQHTc0HSbh30T44yql8CwcGCvQ==
   dependencies:
     semver "^7.7.1"
   optionalDependencies:
-    chromadb-js-bindings-darwin-arm64 "^1.0.9"
-    chromadb-js-bindings-darwin-x64 "^1.0.9"
-    chromadb-js-bindings-linux-arm64-gnu "^1.0.9"
-    chromadb-js-bindings-linux-x64-gnu "^1.0.9"
-    chromadb-js-bindings-win32-x64-msvc "^1.0.9"
+    chromadb-js-bindings-darwin-arm64 "^1.1.1"
+    chromadb-js-bindings-darwin-x64 "^1.1.1"
+    chromadb-js-bindings-linux-arm64-gnu "^1.1.1"
+    chromadb-js-bindings-linux-x64-gnu "^1.1.1"
+    chromadb-js-bindings-win32-x64-msvc "^1.1.1"
 
 ci-info@^4.2.0:
   version "4.3.0"
