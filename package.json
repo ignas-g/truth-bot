@@ -20,7 +20,7 @@
   "description": "",
   "devDependencies": {
     "@evilmartians/lefthook": "2.1.4",
-    "@tstv/eslint-config": "4.1.1",
+    "@tstv/eslint-config": "4.1.2",
     "@tstv/tsconfig-common": "3.7.2",
     "@types/jest": "30.0.0",
     "@types/node": "25.5.0",
