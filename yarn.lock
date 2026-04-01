@@ -1834,10 +1834,10 @@ chromadb-js-bindings-win32-x64-msvc@^1.3.1:
   resolved "https://registry.npmjs.org/chromadb-js-bindings-win32-x64-msvc/-/chromadb-js-bindings-win32-x64-msvc-1.3.1.tgz#0412678ca90b6ee4ef2f27f2e34bca6c54ae7ec8"
   integrity sha512-3B3WwT1aM9vxFZBqlDgnA+R025b8pOudGM4hEZTmxV2rHND3Hn7C87mQO5WsUMarOUmX4Sd1NlhC2ANKCIWfLw==
 
-chromadb@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/chromadb/-/chromadb-3.3.1.tgz#1af2653c7467fc56f9892d7a2ebbf557859e408d"
-  integrity sha512-EXBpPMlRbLXzcPupCRKzjzd2enml5ak3xOJKjX2DnfOhC+fZ2kk5tqQq90fG1GuvtM553P8b/Q+iM2aTP8KfZQ==
+chromadb@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/chromadb/-/chromadb-3.4.0.tgz#6706adb9902835a864aa54e8096c90c8664f9d8b"
+  integrity sha512-PegxNXByBxMCHq6eFsLQQUNemxufGP+6VbfGQVs/cfNTYGur4gq+vVPFPKNtri12ariBvgbORkH66Ma/YKc7PQ==
   dependencies:
     semver "^7.7.1"
   optionalDependencies:
