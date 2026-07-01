@@ -9,7 +9,7 @@
     "@pinecone-database/pinecone": "8.0.0",
     "@types/lodash": "4.17.24",
     "axios": "1.16.1",
-    "chromadb": "3.4.3",
+    "chromadb": "3.5.0",
     "csv-parser": "3.2.1",
     "dotenv": "17.4.2",
     "langchain": "0.2.17",
