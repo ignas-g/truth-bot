@@ -1050,10 +1050,10 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.10.0"
 
-"@pinecone-database/pinecone@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-8.0.0.tgz#1de60bc48587d694ff14f3967423a533c9ab9e8e"
-  integrity sha512-dItFqLdis2Pd5lC67aKn8HhvXajzlOz4+0RyK1CRcZMdSwG8YxUCBtH4yXPC8/6uLxfr2dvMWnRFuKgtPwwajQ==
+"@pinecone-database/pinecone@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.npmjs.org/@pinecone-database/pinecone/-/pinecone-8.1.0.tgz#d634fc3ac1476b8204146e061819461ed7c75aca"
+  integrity sha512-aSC0u1HqUzOFnqHy4fpw8RD2TQdwaT0nMiYpc07Y8qW4tK59LTO3jTqQIjH1L93c4/cn8rfJCQimXmbtsi2acA==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
