@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@pinecone-database/pinecone": "9.1.0",
-    "@types/lodash": "4.17.25",
+    "@types/lodash": "4.17.27",
     "axios": "1.21.0",
     "chromadb": "3.5.0",
     "csv-parser": "3.2.1",
